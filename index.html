@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Learning Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>🎓 Interactive Learning Dashboard</h1>
+
+    <!-- Quiz Section -->
+    <section class="quiz-section">
+      <h2>🤔 Test Your Knowledge</h2>
+      <div id="quiz-container" class="quiz-container">
+        <p id="quiz-question">Loading quiz...</p>
+        <div id="quiz-options" class="quiz-options"></div>
+        <button id="next-question" disabled>Next Question ➡️</button>
+        <div id="progress-bar-container">
+          <div id="progress-bar"></div>
+        </div>
+        <button id="reset-progress" class="reset-button">🔄 Reset Progress</button>
+      </div>
+    </section>
+    
+
+    <!-- Educational Resources Section -->
+    <section class="resources-section">
+      <h2>📚 Motivational Resources</h2>
+      <ul id="resources-list" class="card">
+        <li>Loading educational resources...</li>
+      </ul>
+    </section>
+
+    <!-- Educational News Section -->
+    <section class="news-section">
+      <h2>📰 Latest Educational News</h2>
+      <ul id="news-list" class="card">
+        <li>Loading educational news...</li>
+      </ul>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
